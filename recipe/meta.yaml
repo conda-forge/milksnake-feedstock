@@ -11,17 +11,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - cffi
   run:
     - cffi
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -29,7 +29,7 @@ test:
     - milksnake.ffi
 
 about:
-  home: http://github.com/simplejson/simplejson
+  home: http://github.com/getsentry/milksnake
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
