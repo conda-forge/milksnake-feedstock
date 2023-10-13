@@ -1,11 +1,11 @@
-About milksnake
-===============
+About milksnake-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/milksnake-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/getsentry/milksnake
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/milksnake-feedstock/blob/main/LICENSE.txt)
 
 Summary: Milksnake is an extension for setuptools that allows you to distribute dynamic linked libraries in Python wheels in the most portable way imaginable.
 
